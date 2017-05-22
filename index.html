@@ -59,6 +59,24 @@
 		    -ms-transition: background-color 1000ms linear;
 		    transition: background-color 1000ms linear;
 		}
+		.side-bar {
+			min-height: 90px;
+			background-color: burlywood;
+			margin-bottom: 15px;
+		}
+		@media (min-width: 900px) {
+			.side-bar {
+				position: absolute;
+				right: -315px;
+				width: 315px;
+				height: 97%;
+				background-color: burlywood;
+			}
+			.body-content {
+				margin-right: 315px;
+				margin-bottom: auto;
+			}
+		}
 	</style>
 </head>
 
@@ -131,16 +149,9 @@
 	
 	<!-- CUERPO DE LA PAGINA -->
 	<div class="container-fluid">	
-		<div class="row">	
-			<div class="col-sm-8">	
-				<div class="panel panel-default">
-					<div class="panel-body new-card">
-						<img src="img/img.jpg" alt="new1-img" class="img-rounded">
-						<h2>This is an eight words title as example</h2>
-						<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus
-							et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
-							vehicula.</p>
-					</div>
+		<div class="row body-content">	
+			<div class="col-sm-12">	
+				<div class="side-bar">	
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-body new-card">
@@ -160,10 +171,15 @@
 							vehicula.</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-3 col-sm-offset-1">	
-				<h3>	Sidebar</h3>
-				<p>	Aqui va la publi</p>
+				<div class="panel panel-default">
+					<div class="panel-body new-card">
+						<img src="img/img.jpg" alt="new1-img" class="img-rounded">
+						<h2>This is an eight words title as example</h2>
+						<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus
+							et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+							vehicula.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
