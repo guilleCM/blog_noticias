@@ -54,15 +54,22 @@
 
 		}
 		.new-card:hover{
-		    background-color: #AD310B;
-		    -webkit-transition: background-color 1000ms linear;
-		    -ms-transition: background-color 1000ms linear;
-		    transition: background-color 1000ms linear;
+		    background-color: antiquewhite;
+		    -webkit-transition: background-color 500ms linear;
+		    -ms-transition: background-color 500ms linear;
+		    transition: background-color 500ms linear;
 		}
 		.side-bar {
 			min-height: 90px;
 			background-color: burlywood;
 			margin-bottom: 15px;
+		}
+		.custom-well {
+			margin-bottom: 0px;
+		}
+		.custom-container {
+			padding-top: 15px;
+			background-image: url("img/brickwall.png");
 		}
 		@media (min-width: 900px) {
 			.side-bar {
@@ -91,6 +98,7 @@
 				LOGO
 			</div>
 		</div>
+
 	<!-- NAVBAR -->	
 		<nav class="navbar navbar-default custom-navbar">
 			<div class="container-fluid">
@@ -136,19 +144,16 @@
 	<!-- END NAVBAR -->	
 
 	<!-- SCROLL NOTICIAS  -->
-	<div class="well well-sm">
+	<div class="well well-sm custom-well">
 		<div class='marquee'>
 		    <div class='marquee-text'>
 		        <a href="#">Important new </a><span class="label label-info">Economía</span> &emsp;&emsp; <a href="#">Important new </a><span class="label label-default">Política</span> &emsp;&emsp; <a href="#">Important new </a><span class="label label-primary">Deportes</span>
 		    </div>
 		</div>
 	</div>
-
-
-
 	
 	<!-- CUERPO DE LA PAGINA -->
-	<div class="container-fluid">	
+	<div class="container-fluid custom-container">	
 		<div class="row body-content">	
 			<div class="col-sm-12">	
 				<div class="side-bar">	
