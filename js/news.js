@@ -26,7 +26,7 @@ function loadNews(){
 			+ json[index].body +"</p><p class='text-info'>"
 			+ json[index].data +"</p>");
 		});
-		$(".side-bar").append("<img src='img/publi3.jpg' class='publi-desktop'");
+		$(".side-bar").append("<img src='img/publi3.jpg' class='publi-desktop'>");
 	});
 }
 
@@ -39,6 +39,6 @@ function loadNews2(){
 			+ json[index].body +"</p><p class='text-info'>"
 			+ json[index].data +"</p>");
 		});
-		$(".side-bar").append("<img src='img/publi4.jpg' class='publi-desktop'");
+		$(".side-bar").append("<img src='img/publi4.jpg' class='publi-desktop'>");
 	});
 }
