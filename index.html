@@ -69,17 +69,37 @@
 		    -ms-transition: background-color 500ms linear;
 		    transition: background-color 500ms linear;
 		}
-		.side-bar {
-			min-height: 90px;
-			background-color: burlywood;
-			margin-bottom: 15px;
-		}
 		.custom-well {
 			margin-bottom: 0px;
 		}
 		.custom-container {
 			padding-top: 15px;
 			background-image: url("img/brickwall.png");
+		}
+		.side-bar {
+			min-height: 90px;
+			background-color: burlywood;
+			margin-bottom: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}
+		.side-bar img {
+			flex-shrink: 0;
+			min-width: 100%;
+			min-height: 100%;
+		}
+		.publi-mobile {
+			display: none;
+		}
+		@media (max-width: 899px) {
+			.publi-mobile {
+				display: inline-block;
+			}
+			.publi-desktop {
+				display: none;
+			}
 		}
 		@media (min-width: 900px) {
 			.side-bar {
@@ -88,6 +108,21 @@
 				width: 315px;
 				height: 97%;
 				background-color: burlywood;
+				display: inline-block;
+				justify-content: flex-start;
+				align-items: stretch;
+				overflow: hidden;
+			}
+			.side-bar img {
+				flex-shrink: 1;
+				width: 100%;
+				min-height: auto;
+			}	
+			.publi-desktop {
+				display: inline-block;
+			}
+			.publi-mobile {
+				display: none;
 			}
 			.body-content {
 				margin-right: 315px;
@@ -191,9 +226,17 @@
 	<!-- CUERPO DE LA PAGINA -->
 	<div class="container-fluid custom-container">	
 		<div class="row body-content">	
-			<div class="col-sm-12">	
-				<div class="side-bar">	
+			<div class="col-sm-12">
+			<!-- SIDE BAR PUBLI	 -->
+				<div class="side-bar">
+					<!-- VERTICAL DESKTOP -->
+					<img src="img/publi1.jpg" alt="publi1" class="publi-desktop">
+					<img src="img/publi2.png" alt="publi2" class="publi-desktop">
+
+					<!-- HORIZONTAL MOBILE -->
+					<img src="img/publi90_2.png" alt="publi1x90" class="publi-mobile">
 				</div>
+			<!-- NEWS CARD PANEL -->
 				<div class="panel panel-default">
 					<div class="panel-body new-card">
 						<img src="img/img.jpg" alt="new1-img" class="img-rounded panel-img-desktop">
