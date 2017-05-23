@@ -38,9 +38,11 @@ function loadNews(){
 			+ json[index].image+"><h2>"
 			+ json[index].title+"</h2><img class='img-rounded panel-img-mobile' src="+ json[index].image +"><p>"
 			+ json[index].body +"</p><p class='text-info'>"
-			+ json[index].data +"</p>");
+			+ json[index].data +"&emsp;&emsp;<span class='pull-right'>"
+			+ json[index].time +"</small></p>");
 		});
 		$(".side-bar").append("<img src='img/publi3.jpg' class='publi-desktop'>");
+		$(".side-bar").append("<img src='img/publi4.jpg' class='publi-desktop'>");
 	});
 }
 
@@ -51,8 +53,9 @@ function loadNews2(){
 			+ json[index].image+"><h2>"
 			+ json[index].title+"</h2><img class='img-rounded panel-img-mobile' src="+ json[index].image +"><p>"
 			+ json[index].body +"</p><p class='text-info'>"
-			+ json[index].data +"</p>");
+			+ json[index].data +"&emsp;&emsp;<span class='pull-right'>"
+			+ json[index].time +"</small></p>");
 		});
-		$(".side-bar").append("<img src='img/publi4.jpg' class='publi-desktop'>");
+		$(".side-bar").append("<img src='img/publi1.jpg' class='publi-desktop'>");
 	});
 }
