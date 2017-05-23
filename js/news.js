@@ -1,7 +1,21 @@
 $(document).ready(function(){
+	// SUB MENU AUTOSCROLL NEWS
+    var marquee = $('div.marquee');
+    marquee.each(function() {
+        var mar = $(this),indent = mar.width();
+        mar.marquee = function() {
+            indent--;
+            mar.css('text-indent',indent);
+            if (indent < -1 * mar.children('div.marquee-text').width()) {
+                indent = mar.width();
+            }
+        };
+        mar.data('interval',setInterval(mar.marquee,1000/60));
+    })
+
+	// ON SCROLL LOAD NEWS FUNCTION
 	var firstScroll = false;
 	var secondScroll = false;
-
 	$(window).scroll(function() {
 		if($(window).scrollTop() + $(window).height() == $(document).height()) {
 			if (firstScroll == false) {

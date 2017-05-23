@@ -1,0 +1,143 @@
+		.logo-container {
+			min-height: 90px;
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		.date-profile-container {
+			min-height: 90px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.date-container {
+			min-height: 90px;
+			background-image: url("../img/cloudy.jpg");
+			border-radius: 4px;
+		}
+		.container-top-menu {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.row-navbar {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.custom-navbar {
+			margin-bottom: 0px;
+		}
+		.profile-dropdown {
+			padding-left: 60px !important;
+		}
+		.profile-dropdown img {
+			max-height: 35px;
+			position: absolute;
+			left: 13px;
+			top: 13px;
+		}
+		.scroll-news-text {
+			margin: 0px;
+		}
+
+		div.marquee {
+			white-space:nowrap;
+			overflow: hidden;
+		}
+		div.marquee > div.marquee-text {
+    		white-space:nowrap;
+    		display:inline;
+    		width:auto;
+		}
+		.new-card img {
+			float: left;
+			margin-right: 20px;
+			max-height: 200px;
+		}
+		.new-card {
+
+		}
+		.new-card:hover{
+		    background-color: rgb(226, 226, 226);
+		    -webkit-transition: background-color 500ms linear;
+		    -ms-transition: background-color 500ms linear;
+		    transition: background-color 500ms linear;
+		}
+		.custom-well {
+			margin-bottom: 0px;
+		}
+		.custom-container {
+			padding-top: 15px;
+			background-image: url("../img/brickwall.png");
+		}
+		.side-bar {
+			min-height: 90px;
+			margin-bottom: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}
+		.side-bar img {
+			flex-shrink: 0;
+			min-width: 100%;
+			min-height: 100%;
+		}
+		.publi-mobile {
+			display: none;
+		}
+		@media (max-width: 899px) {
+			.publi-mobile {
+				display: inline-block;
+			}
+			.publi-desktop {
+				display: none;
+			}
+		}
+		@media (min-width: 900px) {
+			.side-bar {
+				position: absolute;
+				right: -315px;
+				width: 315px;
+				height: 97%;
+				display: inline-block;
+				justify-content: flex-start;
+				align-items: stretch;
+				overflow: hidden;
+			}
+			.side-bar img {
+				flex-shrink: 1;
+				width: 100%;
+				min-height: auto;
+			}	
+			.publi-desktop {
+				display: inline-block;
+			}
+			.publi-mobile {
+				display: none;
+			}
+			.body-content {
+				margin-right: 315px;
+				margin-bottom: auto;
+			}
+		}
+		@media (max-width: 767px) {
+			.profile-dropdown img {
+				top: 3px;
+			}
+		}
+		@media (min-width: 471px) {
+			.panel-img-mobile {
+				display: none;
+			}
+		}
+		@media (max-width: 470px) {
+			.new-card img {
+				float: left;
+				margin-right: 20px;
+				max-height: 100px;
+			}
+			.new-card h2 {
+				margin-top: 0px;
+			}
+			.panel-img-desktop {
+				display: none;
+			}
+		}
