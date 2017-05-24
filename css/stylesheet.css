@@ -10,7 +10,7 @@
 		}
 		.date-container {
 			min-height: 90px;
-			background-image: url("../img/cloudy.jpg");
+			background-image: url("../img/weather/raining-sm.jpg");
 			border-radius: 4px;
 		}
 		.container-top-menu {
@@ -36,7 +36,9 @@
 		.scroll-news-text {
 			margin: 0px;
 		}
-
+		.custom-badge {
+			background-color: #eb6864 !important;
+		}
 		div.marquee {
 			white-space:nowrap;
 			overflow: hidden;
@@ -60,8 +62,12 @@
 		    -ms-transition: background-color 500ms linear;
 		    transition: background-color 500ms linear;
 		}
+		.explained-new p {
+			font-size: 16px;
+		}
 		.custom-well {
 			margin-bottom: 0px;
+			background-color: rgba(0, 0, 0, 0.8);
 		}
 		.custom-container {
 			padding-top: 15px;
@@ -83,6 +89,64 @@
 		.publi-mobile {
 			display: none;
 		}
+
+
+		/* Set a specific color for each brand */
+		.fa-facebook {
+		    background: #3B5998;
+		    color: white;
+			border-radius: 50%;
+		    border-style: none;
+		    padding-top: 5px;
+		    padding-left: 10px;
+		    padding-right: 10px;
+		    padding-bottom: 5px;
+		    font-size: 22px;
+		}
+		.fa-twitter {
+		    background: #55ACEE;
+		    color: white;
+			border-radius: 50%;
+		    border-style: none;
+		    padding-top: 6px;
+		    padding-left: 8px;
+		    padding-right: 7px;
+		    padding-bottom: 6px;
+		    font-size: 22px;
+		}
+		.gy-print {
+		    background: #eb6864;
+		    color: white;
+			border-radius: 50%;
+		    border-style: none;
+		    padding-top: 6px;
+		    padding-left: 8px;
+		    padding-right: 8px;
+		    padding-bottom: 9px;
+		    font-size: 22px;
+		}
+		.gy-mail {
+		    background: black;
+		    color: white;
+			border-radius: 50%;
+		    border-style: none;
+		    padding-top: 6px;
+		    padding-left: 8px;
+		    padding-right: 8px;
+		    padding-bottom: 8px;
+		    font-size: 22px;			
+		}
+		.fa:hover {
+		    opacity: 0.7;
+		}
+		.gy-print:hover {
+			opacity: 0.7;
+		}
+		.gy-mail:hover {
+			opacity: 0.7;
+		}
+
+
 		@media (max-width: 899px) {
 			.publi-mobile {
 				display: inline-block;
