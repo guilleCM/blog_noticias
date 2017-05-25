@@ -145,7 +145,10 @@
 		.gy-mail:hover {
 			opacity: 0.7;
 		}
-
+		.brand-logo {
+			font-size: 45px;
+			line-height: 21px;
+		}
 
 		@media (max-width: 899px) {
 			.publi-mobile {
