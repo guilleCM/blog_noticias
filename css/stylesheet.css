@@ -3,10 +3,16 @@
 			padding-right: 0px;
 			padding-left: 0px;
 		}
+		.date-city {
+			text-shadow: 3px 1px 4px #000000;
+    		color: white;
+		}
 		.date-profile-container {
 			min-height: 90px;
 			margin-left: 0px;
 			margin-right: 0px;
+			background-image: url('../img/brand/background-lg.jpg');
+			background-size: cover;
 		}
 		.date-container {
 			min-height: 90px;

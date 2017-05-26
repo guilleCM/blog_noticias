@@ -1,21 +1,24 @@
 [   
     {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 1 carga json",
-    "body" : "La falta de presencia de Samsung se ha notado este MWC 2017. Los teléfonos presentados, a pesar de haber levantado bastante hype los días previos a este evento tecnológico, no han llegado a todo lo que se esperaba. En la gama alta hemos echado en falta algún que otro dispositivo, ya que los principales protagonistas han sido tres.",
+    "image": "img/news/new4.jpg",
+    "image-mobile": "img/news/new4-mobile.jpg",
+    "title": "Los 'fast food' abren sus cocinas: así fabrican sus hamburguesas",
+    "body" : "Hoy muchas de estas empresas enseñas ofrecen la posibilidad de visitar sus fábricas para comprobar que la carne es 100% vacuno y que no lleva aditivos. Osi Foods es una de ellas. Es la empresa encargada de proveer a McDonald's. Trabajan con ellos desde los años 50. Tiene su fábrica en Toledo, desde donde suministran 27.000 toneladas de carne de pollo y vacuno a España y Portugal.",
     "data" : "24-04-17",
     "time" : "13:40 h"
     },
     {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 2 carga json",
-    "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
+    "image": "img/news/new5.jpg",
+    "image-mobile": "img/news/new5-mobile.jpg",
+    "title": "Los 'fast food' abren sus cocinas: así fabrican sus hamburguesas",
+    "body" : "Hoy muchas de estas empresas enseñas ofrecen la posibilidad de visitar sus fábricas para comprobar que la carne es 100% vacuno y que no lleva aditivos. Osi Foods es una de ellas. Es la empresa encargada de proveer a McDonald's. Trabajan con ellos desde los años 50. Tiene su fábrica en Toledo, desde donde suministran 27.000 toneladas de carne de pollo y vacuno a España y Portugal.",
     "data" : "21-05-17",
     "time" : "17:00 h"
     },
     {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 3 carga json",
+    "image": "img/news/new6.jpg",
+    "image-mobile": "img/news/new6-mobile.jpg",
+    "title": "",
     "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
     "data" : "20-05-17",
     "time" : "18:40 h"
