@@ -3,24 +3,21 @@
     "image": "img/img.jpg",
     "title": "titulo de prueba 1 carga json",
     "body" : "La falta de presencia de Samsung se ha notado este MWC 2017. Los teléfonos presentados, a pesar de haber levantado bastante hype los días previos a este evento tecnológico, no han llegado a todo lo que se esperaba. En la gama alta hemos echado en falta algún que otro dispositivo, ya que los principales protagonistas han sido tres.",
-    "data" : "24-04-17",
-    "time" : "13:40 h",
-    "author" : "Guille Cirer"
+    "data" : "20-05-17",
+    "time" : "08:40 h"
     },
     {
     "image": "img/img.jpg",
     "title": "titulo de prueba 2 carga json",
     "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
-    "data" : "11-04-17",
-    "time" : "13:40 h",
-    "author" : "Guille Cirer"
+    "data" : "19-05-17",
+    "time" : "11:00 h"
     },
     {
     "image": "img/img.jpg",
     "title": "titulo de prueba 3 carga json",
     "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
-    "data" : "03-04-17",
-    "time" : "13:40 h",
-    "author" : "Guille Cirer"
+    "data" : "17-05-17",
+    "time" : "06:30 h"
     }
 ]
