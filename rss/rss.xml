@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+		<title>Blog Noticias</title>
+		<link>https://rawgit.com/guilleCM/blog_noticias/master/index.html</link>
+		<description>El único blog de noticias donde la opinión es más importante que la noticia</description>
+		
+		<item>
+			<title>¿Dónde se forman los 'hackers'?</title>
+			<link>https://rawgit.com/guilleCM/blog_noticias/master/news1.html</link>
+			<description>
+				Escurridizos e individualistas, los 'piratas informáticos' son perfiles que se aprecian cada vez más. Sin embargo, los 200 especialistas que se titulan anualmente en seguridad informática son insuficientes para cubrir 20.000 empleos con estas características que precisa el mercado laboral cada año.
+			</description>
+		</item>
+
+		<item>
+			<title>Tres razones que explican por qué hoy es el Día del Orgullo Friki</title>
+			<link>https://rawgit.com/guilleCM/blog_noticias/master/news2.html</link>
+			<description>
+				El 25 de mayo se celebra el Día del Orgullo Friki. Pero ¿por qué? Hay al menos tres razones que deberías conocer si de verdad tu vida gira en torno a una manifestación actual de la cultura pop.
+			</description>
+		</item>
+		
+	</channel>
+
+</rss>
