@@ -8,6 +8,6 @@ La idea era hacer una especie de blog de noticias, esto quiere decir, un muro si
 
 
 # Todas las noticias e imágenes son propiedad de:
-http://www.elmundo.es/
-http://www.elpais.com/
-http://hipertextual.com/
+http://www.elmundo.es/  
+http://www.elpais.com/  
+http://hipertextual.com/  
