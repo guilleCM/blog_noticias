@@ -1,7 +1,13 @@
 # blog_noticias
-proyecto final de lenguaje de marcas
+Proyecto final para Lenguaje de Marcas 1º DAW DUAL.  
+Realizado por: Guillermo Cirer  
+Profesor: Miguel Urbina
 
-http://www.elmundo.es/f5/campus/2017/05/24/59248bad46163f69558b4631.html
-http://www.elmundo.es/cultura/cine/2017/04/14/58f1004646163fe85b8b458e.html
-http://www.elmundo.es/cultura/2017/05/18/591d561646163fb9598b45d4.html
-https://hipertextual.com/2017/05/dia-del-orgullo-friki-2
+# Analisis y planificacion del proyecto
+La idea era hacer una especie de blog de noticias, esto quiere decir, un muro similar al de facebook pero con noticias extraidas de periódicos. Por eso tiene un estilo bastante minimalista que solo presenta una imagen, un titulo, una breve descripcion y la fecha de la publicación a modo de poster encima de un muro.
+
+
+# Todas las noticias e imágenes son propiedad de:
+http://www.elmundo.es/
+http://www.elpais.com/
+http://hipertextual.com/
