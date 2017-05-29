@@ -1,23 +1,26 @@
 [   
     {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 1 carga json",
-    "body" : "La falta de presencia de Samsung se ha notado este MWC 2017. Los teléfonos presentados, a pesar de haber levantado bastante hype los días previos a este evento tecnológico, no han llegado a todo lo que se esperaba. En la gama alta hemos echado en falta algún que otro dispositivo, ya que los principales protagonistas han sido tres.",
+    "image": "img/news/new7.jpg",
+    "image-mobile": "img/news/new7-mobile.jpg",
+    "title": "¿Qué se necesita para innovar en educación?",
+    "body" : "Es bien sabido que para acelerar la mejora en la calidad de los aprendizajes de nuestros niños y jóvenes la innovación es un elemento clave.",
+    "data" : "24-04-17",
+    "time" : "13:40 h"
+    },
+    {
+    "image": "img/news/new8.jpg",
+    "image-mobile": "img/news/new8-mobile.jpg",
+    "title": "¿Cuánto ha cambiado el cine?",
+    "body" : "Cine mudo, películas en blanco y negro, efectos especiales, animación en 3D… La evolución del “séptimo arte” es producto de una serie de innovaciones que, aun no siendo siempre las más acertadas, han provocado la creación de auténticas maravillas.",
+    "data" : "21-05-17",
+    "time" : "17:00 h"
+    },
+    {
+    "image": "img/news/new9.jpg",
+    "image-mobile": "img/news/new9-mobile.jpg",
+    "title": "La Casa Blanca estudia someter los tuits de Trump a supervisión previa",
+    "body" : "La Casa Blanca estudia poner en manos de abogados la supervisión previa de los polémicos mensajes que el presidente de Estados Unidos, Donald Trump, publica en su cuenta de Twitter habitualmente, informó hoy The Wall Street Journal.",
     "data" : "20-05-17",
-    "time" : "08:40 h"
-    },
-    {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 2 carga json",
-    "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
-    "data" : "19-05-17",
-    "time" : "11:00 h"
-    },
-    {
-    "image": "img/img.jpg",
-    "title": "titulo de prueba 3 carga json",
-    "body" : "breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse. breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.",
-    "data" : "17-05-17",
-    "time" : "06:30 h"
+    "time" : "18:40 h"
     }
 ]
