@@ -17,7 +17,7 @@ $(document).ready(function(){
 	var firstScroll = false;
 	var secondScroll = false;
 	$(window).scroll(function() {
-		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+		if($(window).scrollTop() + $(window).height() == $(document).height() -1) {
 			if (firstScroll == false) {
 				loadNews();
 				firstScroll = true;
